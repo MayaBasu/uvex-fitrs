@@ -43,7 +43,7 @@ pub struct FitsIter<'f> {
 #[derive(Debug, Clone)]
 pub struct Hdu {
     header: Vec<(HeaderKeyWord, Option<HeaderValueComment>)>,
-    data_start: u64,
+    pub data_start: u64,
     next_hdu_start: u64,
     file: Option<FileRc>,
     /// Data inside Hdu (there if cached)
