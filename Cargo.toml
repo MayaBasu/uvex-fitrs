@@ -1,13 +1,13 @@
 [package]
 name = "uvex-fitrs"
 version = "0.0.1"
-authors = ["Malik Olivier Boussejra <malik@boussejra.com>"]
+authors = [""]
 description = "Parse FITS file in pure rust"
-homepage = "https://github.com/malikolivier/fitrs"
-repository = "https://github.com/malikolivier/fitrs"
+homepage = "https://github.com/MayaBasu/uvex-fitrs"
+repository = "https://github.com/MayaBasu/uvex-fitrs"
 readme = "README.md"
-keywords = ["fits", "parser", "astronomy", "astrophysics", "fitrs"]
-categories = ["concurrency", "parsing", "science"]
+keywords = []
+categories = []
 license = "GPL-3.0"
 
 [dependencies]
